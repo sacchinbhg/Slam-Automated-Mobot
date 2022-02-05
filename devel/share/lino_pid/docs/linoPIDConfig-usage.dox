@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="lino_pid" pkg="lino_pid" type="lino_pid">
+  <param name="p" type="double" value="0.6" />
+  <param name="d" type="double" value="0.3" />
+  <param name="i" type="double" value="0.5" />
+</node>
+\endverbatim
+
