@@ -1,0 +1,2 @@
+imu_calib:lino_msgs:lino_pid:lino_udev:lino_visualize:linorobot:linorobot_description:rplidar_ros-master/rplidar_ros-master
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/linorobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/linorobot_ws/install -G Unix Makefiles
