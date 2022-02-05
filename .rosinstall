@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/linorobot_ws/devel/setup.sh
