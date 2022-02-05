@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/linorobot_ws/devel
+
+Name: linorobot
+Description: Description of linorobot
+Version: 1.4.1
+Cflags: -I/home/ubuntu/linorobot_ws/src/linorobot/include
+Libs: -L${prefix}/lib -llinorobot
+Requires: roscpp rospy tf2 tf2_ros nav_msgs lino_msgs geometry_msgs sensor_msgs std_msgs
