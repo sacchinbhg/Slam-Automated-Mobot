@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/linorobot_ws/install
+
+Name: linorobot_description
+Description: Description of linorobot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
