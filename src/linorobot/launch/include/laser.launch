@@ -1,0 +1,9 @@
+<launch>
+    <!-- Run Linorobot compatible laser drivers. Takes reference from env var LINOLIDAR. ie. export /dev/ttyUSB0=xv11 -->
+    <include file="$(find linorobot)/launch/include/lidar/$(env LINOLIDAR).launch" />
+
+    <!-- Publish static transform of the laser. Define your sensor offset here -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_link_to_laser" args="0.035 0 0.035 0 0 0  /base_link /laser"/>
+</launch>
+
+
